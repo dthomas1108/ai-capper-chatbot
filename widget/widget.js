@@ -16,19 +16,28 @@ function addMessage(role, text) {
 }
 
 async function getBotReply(question) {
-    if (question.toLowerCase().includes("capper")) {
-        const response = await fetch(`${backendUrl}/handicappers`);
-        const data = await response.json();
-        return "Here are some top cappers: " + data.map(cap => cap.name).join(", ");
-    }
+    // if (question.toLowerCase().includes("capper")) {
+    //     const response = await fetch(`${backendUrl}/handicappers`);
+    //     const data = await response.json();
+    //     return "Here are some top cappers: " + data.map(cap => cap.name).join(", ");
+    // }
+    //
+    // if (question.toLowerCase().includes("package")) {
+    //     const response = await fetch(`${backendUrl}/packages`);
+    //     const data = await response.json();
+    //     return "Some available packages: " + data.slice(0,3).map(p => p.title).join("; ");
+    // }
+    //
+    // return "I'm here to help! You can ask about cappers, packages, or sports picks.";
 
-    if (question.toLowerCase().includes("package")) {
-        const response = await fetch(`${backendUrl}/packages`);
-        const data = await response.json();
-        return "Some available packages: " + data.slice(0,3).map(p => p.title).join("; ");
-    }
+    const response = await fetch('http://localhost:3000/api/chat', {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ message: question})
+    });
 
-    return "I'm here to help! You can ask about cappers, packages, or sports picks.";
+    const data = await response.json();
+    return data.reply;
 }
 
 form.addEventListener("submit", async (e) => {
