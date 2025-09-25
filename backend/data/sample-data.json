@@ -1,0 +1,386 @@
+{
+  "handicappers": [
+    {
+      "id": "tokyo_brandon",
+      "name": "Tokyo Brandon",
+      "nickname": "Tokyo Brandon",
+      "bio": "WagerTalk's #1 all-sports profit capper 3 of the last 4 years. #1 profit capper at WagerTalk in 2025 +80 units!",
+      "specialties": ["MLB", "NFL", "NBA", "All Sports"],
+      "yearsExperience": 8,
+      "achievements": [
+        "#1 WagerTalk ALL-SPORTS profit 2024 (+180 units)",
+        "#1 WagerTalk MLB profit 2024 (+145 units)",
+        "#1 WagerTalk ALL-SPORTS profit 2022 (+125 units)"
+      ],
+      "currentStats": {
+        "overallRecord": "156-98",
+        "winPercentage": 61.4,
+        "unitsProfit": 85.2,
+        "roi": 14.8
+      },
+      "recentPerformance": {
+        "last7Days": {"record": "6-1", "units": "+12.4", "roi": "22.1%"},
+        "last30Days": {"record": "23-12", "units": "+18.7", "roi": "15.3%"},
+        "lastYear": {"record": "180-145", "units": "+180", "roi": "12.5%"}
+      }
+    },
+    {
+      "id": "gianni_greek",
+      "name": "Gianni the Greek",
+      "nickname": "Gianni",
+      "bio": "Professional sports bettor & handicapper, one of the most esteemed movers in Las Vegas for over 20 years.",
+      "specialties": ["UFC", "NFL", "College Football", "MLB Props"],
+      "yearsExperience": 20,
+      "achievements": [
+        "#1 PROFIT WINNER in NFL + CFB 2025",
+        "UFC 5% ML PLAYS ARE 29-14 (67.4%) SINCE MAY 2023",
+        "FOOTBALL FUTURES 16-4-1 (80%) THE LAST TWO SEASONS"
+      ],
+      "currentStats": {
+        "overallRecord": "89-54",
+        "winPercentage": 62.2,
+        "unitsProfit": 63.22,
+        "roi": 10.7
+      },
+      "recentPerformance": {
+        "last7Days": {"record": "5-2", "units": "+8.1", "roi": "18.2%"},
+        "last30Days": {"record": "19-8", "units": "+25.3", "roi": "12.8%"},
+        "currentStreak": "W3"
+      }
+    },
+    {
+      "id": "kevin_dolan",
+      "name": "Kevin Dolan",
+      "nickname": "The Irishman",
+      "bio": "First foreigner to conquer the 2015 World Series of Handicapping. Best-selling author from Dublin.",
+      "specialties": ["Soccer", "EPL", "UFC", "Boxing"],
+      "yearsExperience": 15,
+      "achievements": [
+        "2015 World Series of Handicapping Winner",
+        "#1 in EPL last season (2024/25)",
+        "20-11 Soccer Best Bet run"
+      ],
+      "currentStats": {
+        "overallRecord": "78-45",
+        "winPercentage": 63.4,
+        "unitsProfit": 42.8,
+        "roi": 16.2
+      },
+      "recentPerformance": {
+        "last7Days": {"record": "4-1", "units": "+6.7", "roi": "21.3%"},
+        "soccerRecord": "67-34",
+        "eplBestBets": "6-1"
+      }
+    },
+    {
+      "id": "steve_merril",
+      "name": "Steve Merril",
+      "nickname": "Steve Merril",
+      "bio": "Has won consistently for 25+ years as one of the best sports analysts in the nation. Ranked #1 on MLB Totals last year.",
+      "specialties": ["MLB", "MLB Totals", "Statistical Analysis"],
+      "yearsExperience": 25,
+      "achievements": [
+        "#1 on MLB Totals (+88.27 units) last year",
+        "(+103.36 units) overall in MLB in 2024",
+        "25+ years of consistent winning"
+      ],
+      "currentStats": {
+        "overallRecord": "142-89",
+        "winPercentage": 61.5,
+        "unitsProfit": 88.27,
+        "roi": 15.2
+      },
+      "recentPerformance": {
+        "last7Days": {"record": "5-2", "units": "+7.3", "roi": "19.4%"},
+        "last30Days": {"record": "21-14", "units": "+16.8", "roi": "14.7%"},
+        "mlbTotals": "42-18 (+34.2 units)"
+      }
+    }
+  ],
+  "packages": [
+    {
+      "id": "pkg_001",
+      "handicapperId": "tokyo_brandon",
+      "title": "MLB BET FROM #1 PROFIT CAPPER 2025",
+      "sport": "MLB",
+      "type": "daily",
+      "confidence": "4%",
+      "price": 25.00,
+      "guaranteedPrice": 38.00,
+      "description": "Get Brandon's MLB pick from the #1 profit capper at WagerTalk in 2025",
+      "includes": ["Game analysis", "Betting reasoning", "Line movement alerts"],
+      "duration": "1 day",
+      "validGames": ["Pirates @ Orioles"]
+    },
+    {
+      "id": "pkg_002",
+      "handicapperId": "gianni_greek",
+      "title": "SAT CFB w/ 5% BIG MOVE (#1 CFB 2025)",
+      "sport": "College Football",
+      "type": "daily",
+      "confidence": "5%",
+      "price": 35.00,
+      "guaranteedPrice": 53.00,
+      "description": "Gianni's highest confidence college football play - #1 CFB profit winner 2025",
+      "includes": ["5% Best Bet", "Detailed analysis", "System backing", "Historical trends"],
+      "duration": "1 day"
+    },
+    {
+      "id": "pkg_003",
+      "handicapperId": "kevin_dolan",
+      "title": "Weekend Warrior Football Pass",
+      "sport": "Multiple",
+      "type": "weekend",
+      "confidence": "varies",
+      "price": 49.00,
+      "description": "Get every football play for Saturday and Sunday including any 5% releases",
+      "includes": ["All weekend plays", "5% releases", "Monday Night Football bonus", "EPL picks"],
+      "duration": "weekend"
+    },
+    {
+      "id": "pkg_004",
+      "handicapperId": "steve_merril",
+      "title": "MLB OVER EASY SLUGFEST",
+      "sport": "MLB",
+      "type": "daily",
+      "confidence": "4%",
+      "price": 25.00,
+      "guaranteedPrice": 38.00,
+      "description": "From the #1 MLB Totals expert - Thursday night best bet total",
+      "includes": ["Over/Under analysis", "Weather factors", "Ballpark tendencies", "Pitcher matchups"],
+      "duration": "1 day"
+    },
+    {
+      "id": "pkg_005",
+      "handicapperId": "tokyo_brandon",
+      "title": "NFL Sunday Package",
+      "sport": "NFL",
+      "type": "daily",
+      "confidence": "3%",
+      "price": 29.00,
+      "guaranteedPrice": 44.00,
+      "description": "Complete NFL Sunday slate from the all-sports profit leader",
+      "includes": ["Multiple games", "ATS picks", "Player props", "DFS insights"],
+      "duration": "1 day"
+    },
+    {
+      "id": "pkg_006",
+      "handicapperId": "gianni_greek",
+      "title": "UFC Fight Night Special",
+      "sport": "UFC",
+      "type": "event",
+      "confidence": "5%",
+      "price": 39.00,
+      "guaranteedPrice": 59.00,
+      "description": "Complete UFC card breakdown from Vegas insider - 67.4% win rate on 5% plays",
+      "includes": ["Main card picks", "Undercard value", "Method of victory props", "Round betting"],
+      "duration": "event"
+    },
+    {
+      "id": "pkg_007",
+      "handicapperId": "kevin_dolan",
+      "title": "EPL Saturday Special",
+      "sport": "Soccer",
+      "type": "daily",
+      "confidence": "4%",
+      "price": 27.00,
+      "guaranteedPrice": 41.00,
+      "description": "Premier League expertise from the 2015 World Series of Handicapping winner",
+      "includes": ["Match analysis", "Both teams to score", "Over/under goals", "Correct score tips"],
+      "duration": "1 day"
+    },
+    {
+      "id": "pkg_008",
+      "handicapperId": "steve_merril",
+      "title": "MLB Totals Master Package",
+      "sport": "MLB",
+      "type": "weekly",
+      "confidence": "4%",
+      "price": 99.00,
+      "description": "Full week of MLB totals from the #1 ranked expert - 7 days of picks",
+      "includes": ["Daily totals", "Weather analysis", "Umpire tendencies", "Advanced metrics"],
+      "duration": "7 days"
+    }
+  ],
+  "availableGames": [
+    {
+      "gameId": "mlb_001",
+      "date": "2025-09-18",
+      "time": "19:05",
+      "sport": "MLB",
+      "league": "MLB",
+      "awayTeam": "Pittsburgh Pirates",
+      "homeTeam": "Baltimore Orioles",
+      "lines": {
+        "spread": {"away": "+1.5 (-110)", "home": "-1.5 (-110)"},
+        "moneyline": {"away": "+145", "home": "-165"},
+        "total": {"over": "8.5 (-105)", "under": "8.5 (-115)"}
+      },
+      "weather": "Clear, 72°F",
+      "venue": "Oriole Park at Camden Yards"
+    },
+    {
+      "gameId": "nfl_001",
+      "date": "2025-09-19",
+      "time": "20:20",
+      "sport": "NFL",
+      "league": "NFL",
+      "awayTeam": "Miami Dolphins",
+      "homeTeam": "Buffalo Bills",
+      "lines": {
+        "spread": {"away": "+2.5 (-110)", "home": "-2.5 (-110)"},
+        "moneyline": {"away": "+120", "home": "-140"},
+        "total": {"over": "48.5 (-110)", "under": "48.5 (-110)"}
+      },
+      "venue": "Highmark Stadium"
+    },
+    {
+      "gameId": "epl_001",
+      "date": "2025-09-21",
+      "time": "12:30",
+      "sport": "Soccer",
+      "league": "EPL",
+      "awayTeam": "West Ham United",
+      "homeTeam": "Tottenham Hotspur",
+      "lines": {
+        "spread": {"away": "+0.5 (+105)", "home": "-0.5 (-125)"},
+        "moneyline": {"away": "+190", "home": "-110", "draw": "+240"},
+        "total": {"over": "2.5 (-110)", "under": "2.5 (-110)"}
+      },
+      "venue": "Tottenham Hotspur Stadium"
+    },
+    {
+      "gameId": "cfb_001",
+      "date": "2025-09-21",
+      "time": "15:30",
+      "sport": "College Football",
+      "league": "CFB",
+      "awayTeam": "Florida Gators",
+      "homeTeam": "LSU Tigers",
+      "lines": {
+        "spread": {"away": "+7.5 (-110)", "home": "-7.5 (-110)"},
+        "moneyline": {"away": "+250", "home": "-300"},
+        "total": {"over": "52.5 (-110)", "under": "52.5 (-110)"}
+      },
+      "venue": "Tiger Stadium"
+    }
+  ],
+  "freePicks": [
+    {
+      "pickId": "free_001",
+      "handicapperId": "kevin_dolan",
+      "gameId": "epl_001",
+      "sport": "Soccer",
+      "league": "EPL",
+      "matchup": "West Ham vs Tottenham",
+      "pick": "Tottenham -0.5",
+      "confidence": "3%",
+      "reasoning": "Tottenham's recent form and historical dominance in this fixture. West Ham struggling defensively at home.",
+      "datePosted": "2025-09-18T10:00:00Z"
+    },
+    {
+      "pickId": "free_002",
+      "handicapperId": "steve_merril",
+      "gameId": "mlb_001",
+      "sport": "MLB",
+      "league": "MLB",
+      "matchup": "Pirates @ Orioles",
+      "pick": "Over 8.5",
+      "confidence": "2%",
+      "reasoning": "Weather conditions favorable for offense. Both bullpens have been inconsistent lately.",
+      "datePosted": "2025-09-18T14:00:00Z"
+    }
+  ],
+  "bettingSystems": [
+    {
+      "systemId": "sys_001",
+      "name": "Thursday Night NFL Angle",
+      "sport": "NFL",
+      "description": "100% angle since 1995 for Thursday night games",
+      "record": "15-0",
+      "criteria": ["Thursday night game", "Specific team situation", "Line movement pattern"],
+      "usedBy": ["ross_benjamin"]
+    },
+    {
+      "systemId": "sys_002",
+      "name": "MLB Ballpark Factor System",
+      "sport": "MLB",
+      "description": "Totals system based on ballpark dimensions and weather",
+      "record": "89-34",
+      "winRate": 72.4,
+      "usedBy": ["steve_merril", "tokyo_brandon"]
+    },
+    {
+      "systemId": "sys_003",
+      "name": "UFC Underdog Value System",
+      "sport": "UFC",
+      "description": "Identifying value in underdogs based on fighting style matchups",
+      "record": "29-14",
+      "winRate": 67.4,
+      "usedBy": ["gianni_greek"]
+    },
+    {
+      "systemId": "sys_004",
+      "name": "EPL Home/Away Form Indicator",
+      "sport": "Soccer",
+      "description": "Exploiting home field advantage disparities in Premier League",
+      "record": "67-34",
+      "winRate": 66.3,
+      "usedBy": ["kevin_dolan"]
+    }
+  ],
+  "intentExamples": {
+    "recommendation": [
+      "Who should I follow for NBA picks?",
+      "Best handicapper for baseball?",
+      "Recommend someone for college football",
+      "Looking for a good NFL capper",
+      "Who's the top performer this season?",
+      "Need help finding MLB expert"
+    ],
+    "performance": [
+      "How is Tokyo Brandon doing this season?",
+      "What's Gianni's track record in UFC?",
+      "Show me Kevin Dolan's soccer results",
+      "Steve Merril's MLB stats",
+      "Recent performance for Brandon",
+      "Win rate for Gianni this month"
+    ],
+    "pricing": [
+      "How much does Brandon's package cost?",
+      "What packages are under $30?",
+      "Price for weekend football pass",
+      "Cheap daily picks available?",
+      "Budget options under $25",
+      "Most expensive packages"
+    ],
+    "comparison": [
+      "Compare Brandon vs Gianni for MLB",
+      "Who's better for props, Gianni or Kevin?",
+      "Best handicapper for college football",
+      "Brandon or Steve for baseball?",
+      "UFC picks: Gianni vs others",
+      "Soccer expert comparison"
+    ],
+    "specific_game": [
+      "Picks for tonight's baseball games?",
+      "Any good bets for Thursday night football?",
+      "What's the play on Pirates vs Orioles?",
+      "EPL picks this weekend?",
+      "UFC fights tonight",
+      "College football Saturday bets"
+    ]
+  },
+  "sportsMappings": {
+    "NFL": ["football", "nfl", "american football", "pro football"],
+    "College Football": ["cfb", "college football", "ncaa football", "university football"],
+    "MLB": ["baseball", "mlb", "major league baseball", "america's pastime"],
+    "NBA": ["basketball", "nba", "pro basketball", "hoops"],
+    "College Basketball": ["college basketball", "ncaa basketball", "march madness", "cbb"],
+    "NHL": ["hockey", "nhl", "ice hockey", "national hockey league"],
+    "Soccer": ["soccer", "football", "epl", "premier league", "uefa", "mls"],
+    "UFC": ["ufc", "mma", "mixed martial arts", "fighting", "octagon"],
+    "Tennis": ["tennis", "atp", "wta", "wimbledon", "us open"],
+    "Golf": ["golf", "pga", "masters", "pga tour", "links"]
+  }
+}
