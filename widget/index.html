@@ -7,15 +7,55 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>AI Capper Chatbot</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-<div id="chatbot-widget">
-    <div id="chatbot-header">AI Capper Chat</div>
-    <div id="chatbot-messages"></div>
-    <form action="" id="chatbot-form">
-        <input type="text" id="chatbot-input" placeholder="Ask about cappers or packages" />
-        <button type="submit">Send</button>
-    </form>
+<div class="chat-widget" id="chatWidget">
+    <div class="chat-header">
+        <div class="header-content">
+            <div class="chat-title">AI Capper Assistant</div>
+            <div class="chat-subtitle">Your expert sports betting companion</div>
+        </div>
+        <div class="status-indicator">
+            <div class="status-dot"></div>
+            <div class="status-text">Online</div>
+        </div>
+    </div>
+
+    <div class="quick-actions" id="quickActions">
+        <div class="quick-action" data-action="best capper">🏆 Best Capper</div>
+        <div class="quick-action" data-action="budget packages">💰 Budget Picks</div>
+        <div class="quick-action" data-action="nfl picks">🏈 NFL Picks</div>
+    </div>
+
+    <div class="messages-container" id="messagesContainer">
+        <div class="welcome-message" id="welcomeMessage">
+            <div class="welcome-icon">🤖</div>
+            <div class="welcome-title">Welcome to AI Capper</div>
+            <div class="welcome-description">
+                I'm here to help you find the best sports betting picks and cappers.
+                Ask me about recommendations, pricing, or performance stats!
+            </div>
+        </div>
+    </div>
+
+    <div class="input-container">
+        <div class="input-wrapper">
+                <textarea
+                        class="message-input"
+                        id="messageInput"
+                        placeholder="Ask me about cappers, picks, or pricing..."
+                        rows="1"
+                ></textarea>
+            <button class="send-button" id="sendButton" type="button">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
+                </svg>
+            </button>
+        </div>
+    </div>
 </div>
 <script src="widget.js"></script>
 </body>
