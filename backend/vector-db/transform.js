@@ -58,4 +58,9 @@ export const transformPackage = (pkg) => {
         text: searchableText,
         metadata: metaData,
     }
+};
+
+export default {
+    transformCapper,
+    transformPackage
 }
