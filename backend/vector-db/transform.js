@@ -20,7 +20,7 @@ export const transformCapper = (capper) => {
         roi: capper.currentStats.roi,
         yearsExperience: capper.yearsExperience,
         recentRecord: capper.recentPerformance?.last7Days.record,
-        recentUnits: parseFloat(handicapper.recentPerformance?.last7Days?.units?.replace('+', '') || '0'),
+        recentUnits: parseFloat(capper.recentPerformance?.last7Days?.units?.replace('+', '') || '0'),
     };
 
     return {

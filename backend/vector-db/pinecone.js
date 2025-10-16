@@ -63,12 +63,17 @@ export const queryVectors = async (queryVector, options = {}) => {
     const index = await initialiseIndex();
     const { topK = 10, filter = {}, includeMetadata = true } = options;
 
-    return await index.query({
+    const queryParams = {
         vector: queryVector,
         topK,
-        filter,
         includeMetadata,
-    });
+    };
+
+    if (Object.keys(filter).length > 0) {
+        queryParams.filter = filter;
+    }
+
+    return await index.query(queryParams);
 };
 
 export const deleteAllVectors = async () => {

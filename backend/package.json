@@ -5,7 +5,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "start": "node --env-file=.env index.js",
+    "ingest": "node --env-file=.env scripts/ingestion/ingestData.js",
+    "test:vectordb": "node --env-file=.env scripts/testVectorDB.js"
   },
   "keywords": [],
   "author": "",

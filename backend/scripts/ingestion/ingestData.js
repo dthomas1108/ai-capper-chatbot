@@ -1,6 +1,6 @@
 import { getData } from '../../data/getData.js';
 import { generateEmbed, upsertVectors, deleteAllVectors } from '../../vector-db/pinecone.js';
-import { transformCapper, transformPackage, } from "../../vector-db/transform.js";
+import { transformCapper, transformPackage } from "../../vector-db/transform.js";
 
 const BATCH_SIZE = 50;
 
@@ -22,10 +22,16 @@ const processBatch = async (items, transformFn) => {
     }
 
     return vectors.length;
-}
+};
 
-const ingestData = async () => {
+const ingestData = async (clearExisting = false) => {
     console.log('Starting ingestion...');
+
+    if (clearExisting) {
+        console.log('Clearing existing vectors...');
+        await deleteAllVectors();
+        console.log('Cleared existing vectors');
+    }
 
     const data = getData();
     let totalVectors = 0;
@@ -42,6 +48,18 @@ const ingestData = async () => {
 
     console.log(`Ingested ${totalVectors} vectors`);
     console.log('Done ingesting data');
-}
+};
+
+const clearExisting = process.argv.includes('--clear');
+ingestData(clearExisting)
+    .then(() => {
+        console.log('Ingestion complete');
+        process.exit(0);
+    })
+    .catch(err => {
+        console.error('Ingestion failed:', err);
+        console.error(err.stack);
+        process.exit(1);
+    });
 
 export default ingestData;
