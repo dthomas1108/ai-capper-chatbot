@@ -4,14 +4,14 @@ export const searchHandicappers = async (query, options = {}) => {
     const { sports = [], minWinRate = 0, topK = 10} = options;
 
     /*
-     * Metadata can be directy filtered before semantic search
+     * Metadata can be directly filtered before semantic search
      * https://docs.pinecone.io/guides/index-data/indexing-overview#metadata
      *
      * $eq - Equals
      * $in - in Array
      * $gte - Greater than or equal
      */
-    const filter = { type: { $eq: 'handicapper' } };
+    const filter = { type: { $eq: 'capper' } };
     if (sports.length > 0) {
         filter.sports = { $in: sports };
     }
